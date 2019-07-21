@@ -1,11 +1,10 @@
-package com.javagda21.jspdemo.database;
+package com.sda.javagda21.checklist_jsp.database;
 
-import com.javagda21.jspdemo.model.IBaseEntity;
-import lombok.extern.slf4j.Slf4j;
+import com.sda.javagda21.checklist_jsp.database.DatabaseSession;
+import com.sda.javagda21.checklist_jsp.model.IBaseEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.dialect.Database;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
