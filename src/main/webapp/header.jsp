@@ -1,16 +1,7 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: D
-  Date: 2019-07-21
-  Time: 15:04
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<table>
+    <tr>
+        <td><a href="/index">Index</a></td>
+        <td><a href="/checklist/add">Add To Checklist</a></td>
+        <td><a href="/checklist/list">Checklist</a></td>
+    </tr>
+</table>
